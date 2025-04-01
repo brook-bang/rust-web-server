@@ -1,0 +1,9 @@
+[package]
+name = "rust-web-server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+async-trait = "0.1.53"
+path-tree = "0.2.2"
